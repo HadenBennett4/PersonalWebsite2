@@ -14,15 +14,17 @@ home{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
   width: 100%;
-  height: 600px;
+  height: 700px;
 }
 .home-image{
   width: 100%;
+  height:100%;
   filter:grayscale(60%);
-  object-fit: fill;
+  object-fit: cover;
   position: absolute;
-  z-index:-2;
+  z-index:5;
 }
 h1{
   font-size: 120px;
@@ -31,6 +33,7 @@ h1{
   text-shadow:2px 2px 0 var(--secondary-yellow),
   4px 4px 0 var(--main-orange),
   6px 6px 0 var(--main-yellow);
+  z-index: 6;
 }
 @media (min-width: 1024px) {
   

@@ -102,6 +102,7 @@ main-background nav{
   top: 0; 
   right: 0;
   transition: height 1.5s ease-in, background-color 2s ease;
+
 }
 main-background{
   width: 0;
@@ -111,11 +112,13 @@ main-background{
   right:0;
   top: 0;
   transition:  width 1s ease, background-color 2s ease;
+  z-index: 9;
 }
 .hamburger[hamburger-toggle="true"] + main-background nav{
   background-color: var(--main-orange);
   width: 20rem;
   height:100rem;
+  z-index: 9;
 
   transition: height 2s ease-in .5s, background-color 4s ease 1s;
 }
@@ -124,6 +127,7 @@ main-background{
   height: 100%;
   background-color: rgb(255, 210, 63,.9);
   transition: width 2s ease, background-color 4s ease;
+  z-index: 9;
 }
 @media (min-width: 1024px) {
   
