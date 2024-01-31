@@ -1,8 +1,8 @@
 
 :root {
-  --main-orange:rgb(254, 78, 0);
-  --main-yellow:rgb(243, 183, 0);
-  --secondary-yellow:rgb(255, 210, 63);
+  --main-orange:#fe4e00;
+  --main-yellow:#f3b700;
+  --secondary-yellow:#ffd23f;
   --main-white:rgb(241, 241, 241);
 }
 
