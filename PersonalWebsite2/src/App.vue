@@ -18,10 +18,10 @@ function handleHamburger(){
 </script>
 
 <template>
-  <HomeView></HomeView>
-  <AboutView></AboutView>
-  <PortfolioView></PortfolioView>
-  <ContactView></ContactView>
+  <HomeView id="home"></HomeView>
+  <AboutView id="about"></AboutView>
+  <PortfolioView id="portfolio"></PortfolioView>
+  <ContactView id="contact"></ContactView>
 
   <svg @click="handleHamburger" class="hamburger" viewBox="0 0 60 60" :hamburger-toggle=[hamburgerToggle]>
     <rect class="top" ></rect>
@@ -32,7 +32,10 @@ function handleHamburger(){
   </svg>
   <main-background>
     <nav>
-    
+      <router-link @click="handleHamburger" class="link" :to="{hash: '#home'}">Home</router-link>
+      <router-link @click="handleHamburger" class="link" :to="{hash: '#about'}">About</router-link>
+        <router-link @click="handleHamburger" class="link" :to="{hash: '#portfolio'}">Portfolio</router-link>
+        <router-link @click="handleHamburger" class="link" :to="{hash: '#contact'}">Contact</router-link>
   </nav>
 
   </main-background>
@@ -95,14 +98,29 @@ function handleHamburger(){
 
 /**Styles for the nav bar */
 main-background nav{
-  height: 0rem;
-  width: 20rem;
+  height: 0%;
+  width: 0%;
   position: fixed;
   background-color: var(--main-yellow);
   top: 0; 
   right: 0;
-  transition: height 1.5s ease-in, background-color 2s ease;
+  transition: width 1s ease,height 0s ease-in 1s, background-color 2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
 
+}
+main-background nav .link{
+  font-size:0px;
+  color:white;
+  text-decoration: none;
+  margin: 0 auto;
+  transition:all 0s ease;
+}
+.hamburger[hamburger-toggle="true"] + main-background nav .link{
+  font-size:25px;
+  transition:all .1s ease 2.5s;
 }
 main-background{
   width: 0;
@@ -117,10 +135,9 @@ main-background{
 .hamburger[hamburger-toggle="true"] + main-background nav{
   background-color: var(--main-orange);
   width: 20rem;
-  height:100rem;
+  height:100%;
   z-index: 9;
-
-  transition: height 2s ease-in .5s, background-color 4s ease 1s;
+  transition: width 1s ease, height 1.5s ease-in 1s, background-color 4s ease 1s;
 }
 .hamburger[hamburger-toggle="true"] + main-background{
   width:100%;

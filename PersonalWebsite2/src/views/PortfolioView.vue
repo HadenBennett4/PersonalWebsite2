@@ -26,55 +26,55 @@ function changeModal(num){
             </div>
             <div @click="changeModal(2)" class="project grid2 no-span">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name</h2>
+                <h2>Project Name 2</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
             </div>
             <div @click="changeModal(3)" class="project grid3 row-span">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name</h2>
+                <h2>Project Name 3</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
             </div>
             <div @click="changeModal(4)" class="project grid4 no-span">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name</h2>
+                <h2>Project Name 4</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
             </div>
             <div @click="changeModal(5)" class="project grid5 grid-span">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name</h2>
+                <h2>Project Name 5</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
             </div>
             <div @click="changeModal(6)" class="project grid6 row-span">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name</h2>
+                <h2>Project Name 6</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
             </div>
             <div @click="changeModal(7)" class="project grid7 no-span">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name</h2>
+                <h2>Project Name 7</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
             </div>
             <div @click="changeModal(8)" class="project grid8 grid-span">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name</h2>
+                <h2>Project Name 8</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
             </div>
             <div @click="changeModal(9)" class="project grid9 grid-span">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name</h2>
+                <h2>Project Name 9</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
             </div>
             <div @click="changeModal(10)" class="project grid10 no-span ">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name</h2>
+                <h2>Project Name 10</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
             </div>
@@ -102,7 +102,7 @@ function changeModal(num){
 .grid[show-modal="5"] .grid2,
 .grid[show-modal="5"]  .grid3,
 .grid[show-modal="5"] .grid4,
-.grid[show-modal="5"] .grid1
+.grid[show-modal="5"] .grid1,
 .grid[show-modal="6"] .grid7,
 .grid[show-modal="6"] .grid8,
 .grid[show-modal="6"] .grid9,
@@ -161,8 +161,8 @@ function changeModal(num){
     color: var(--main-white);
 }
 .grid{
-    width: 90%;
-    height: 70%;
+    width: 80%;
+    height: 60%;
     display: grid;
     color: var(--main-white);
     grid-template-columns: repeat(4,1fr);
