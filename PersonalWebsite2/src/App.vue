@@ -120,7 +120,7 @@ main-background nav .link{
 }
 .hamburger[hamburger-toggle="true"] + main-background nav .link{
   font-size:25px;
-  transition:all .1s ease 2.5s;
+  transition:all .1s ease 1.1s;
 }
 main-background{
   width: 0;
@@ -137,13 +137,13 @@ main-background{
   width: 20rem;
   height:100%;
   z-index: 9;
-  transition: width 1s ease, height 1.5s ease-in 1s, background-color 4s ease 1s;
+  transition: width .5s ease, height .5s ease-in .5s, background-color 4s ease .5s;
 }
 .hamburger[hamburger-toggle="true"] + main-background{
   width:100%;
   height: 100%;
   background-color: rgb(255, 210, 63,.9);
-  transition: width 2s ease, background-color 4s ease;
+  transition: width 1s ease, background-color 4s ease;
   z-index: 9;
 }
 @media (min-width: 1024px) {
