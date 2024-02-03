@@ -10,18 +10,18 @@
             <div class="about">
                     <h1>Contact Me</h1>
                     <div class="info-row">
-                        <div class="icon-container">                  
+                        <a href="https://www.linkedin.com/in/haden-bennett-7a3271182/" target="_blank" class="icon-container">                  
                                 <v-icon class="icon" name="co-linkedin" scale="8"></v-icon>
                                 <h2>Linkedin</h2>             
-                        </div>
-                        <div class="icon-container">             
+                        </a>
+                        <a href="https://github.com/HadenBennett4" target="_blank" class="icon-container">             
                                 <v-icon class="icon" name="fa-github-square" scale="8"></v-icon>
                                 <h2>Github</h2>          
-                        </div>
-                        <div class="icon-container">                    
+                        </a>
+                        <a href="mailto:hadenbennett444@gmail.com" target="_blank" class="icon-container">                    
                                 <v-icon class="icon" name="md-email" scale="8"></v-icon>
                                 <h2>Email</h2>
-                        </div>
+                        </a>
                     </div>
                 </div>
             <div class="sec-yellow"></div>
@@ -104,6 +104,7 @@
        display: grid;
        grid-template-rows:1.5fr 1fr;
        transition: all .5s ease;
+       text-decoration: none;
     }
     .icon-container:hover{
         transform: scale(1.02);

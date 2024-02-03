@@ -27,10 +27,11 @@ function changeShow() {
                     <div @click="changeShow()" class="close-open-button">Learn More</div>
                 </div>
                 <div class="about-info">
-                    <h1>This is what is about me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum, quis nobis itaque id nulla
-                        quas inventore impedit aliquam neque voluptates nostrum quos vel sint dicta quae vitae. Nobis,
-                        obcaecati!</p>
+                    <h1>A Little About Me</h1>
+                    <p>My name is Haden Bennett. I am a highly dedicated freelance front end developer and designer.
+                        I graduated form the University Of North Texas with a degree in Computer Science. Feel free to check out my projects
+                        and follow me on Linkedin!!
+                    </p>
                     <div @click="changeShow()" class="close-open-button">Close</div>
                 </div>
             </div>
@@ -99,6 +100,7 @@ function changeShow() {
         justify-content: center;
         transition: all 1s ease;
         background-color: rgb(30, 30, 30);
+        text-align: center;
     }
 
     .about-info {
@@ -124,7 +126,7 @@ function changeShow() {
     }
     .about-info p {
         color:var(--main-white);
-        font-size: 15px;
+        font-size: 20px;
         width: 50%;
     }
     .close-open-button{

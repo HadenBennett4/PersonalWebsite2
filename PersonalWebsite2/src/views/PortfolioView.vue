@@ -17,114 +17,116 @@ function changeModal(num){
     <div class="container">
         <h1>My Portfolio</h1>
         <div :show-modal=[showModal] class="grid">
-            <div  @click="changeModal(1)" class="project grid1 grid-span">
-                <img src="../assets/Diner.jpg">
+            <div   @click="changeModal(1)" class="project grid1 grid-span">
+                <img src="../assets/AOTSM.png">
                 <h2>All around the state moving</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>All around the state moving</h3>
                     <p>All around the state moving is a website built for a Dallas based moving company</p>
-                    <a href="https://www.icoconverter.com/"></a>
+                    <a href="https://www.icoconverter.com/" target="_blank">https://www.icoconverter.com</a>
                 </div>
             </div>
             <div @click="changeModal(2)" class="project grid2 no-span">
-                <img src="../assets/Diner.jpg">
-                <h2>Project Name 2</h2>
+                <img src="../assets/Demo1.png">
+                <h2>Demo Website 1</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/"></a>
+                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
                 </div>
             </div>
             <div @click="changeModal(3)" class="project grid3 row-span">
-                <img src="../assets/Diner.jpg">
-                <h2>Project Name 3</h2>
+                <img src="../assets/Demo4.png">
+                <h2>Demo Website 4</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/"></a>
+                    <a href="https://demo4-duckweed.netlify.app/#home" target="_blank">https://demo4-duckweed.netlify.app</a>
                 </div>
             </div>
             <div @click="changeModal(4)" class="project grid4 no-span">
-                <img src="../assets/Diner.jpg">
-                <h2>Project Name 4</h2>
+                
+                <img src="../assets/Demo2.png">
+                <h2>Demo Website 2</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/"></a>
+                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
                 </div>
             </div>
             <div @click="changeModal(5)" class="project grid5 grid-span">
-                <img src="../assets/Diner.jpg">
-                <h2>Project Name 5</h2>
+                
+                <img src="../assets/Demo3.png">
+                <h2>Demo Website 3</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/"></a>
+                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
                 </div>
             </div>
             <div @click="changeModal(6)" class="project grid6 row-span">
-                <img src="../assets/Diner.jpg">
-                <h2>Project Name 6</h2>
+                <img src="../assets/Duckweed.png">
+                <h2>Duckweed Marketing Website</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/"></a>
+                    <a href="https://duckweedmarketing.com" target="_blank">https://duckweedmarketing.com</a>
                 </div>
             </div>
             <div @click="changeModal(7)" class="project grid7 no-span">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name 7</h2>
+                <h2>Restaurant App (College Project)</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
-                    <h3>Title</h3>
+                    <h3>Restaurant System (College Project)</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/"></a>
+                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
                 </div>
             </div>
             <div @click="changeModal(8)" class="project grid8 grid-span">
-                <img src="../assets/Diner.jpg">
-                <h2>Project Name 8</h2>
+                <img src="../assets/Karaoke.png">
+                <h2>Karaoke on Wheel (In Progress)</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
-                    <h3>Title</h3>
+                    <h3>Karaoke on Wheel (In Progress)</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/"></a>
+                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
                 </div>
             </div>
             <div @click="changeModal(9)" class="project grid9 grid-span">
-                <img src="../assets/Diner.jpg">
-                <h2>Project Name 9</h2>
+                <img src="../assets/Flash.png">
+                <h2>Flash Card Web App (In Progress)</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/"></a>
+                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
                 </div>
             </div>
             <div @click="changeModal(10)" class="project grid10 no-span ">
                 <img src="../assets/Diner.jpg">
-                <h2>Project Name 10</h2>
+                <h2>POS System (In Progress)</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/"></a>
+                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
                 </div>
             </div>
         </div>
@@ -195,6 +197,21 @@ function changeModal(num){
     width: 100%;
     height: 100%;
     opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.info-box a{
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+    font-size: 17px;
+}
+.info-box h3{
+    font-size: 30px;
+}
+.info-box p{
+    font-size:15px;
 }
 .grid[show-modal="1"] .grid1 .info-box,
 .grid[show-modal="2"] .grid2 .info-box,
@@ -256,6 +273,7 @@ function changeModal(num){
     position:absolute;
     opacity: 0;
     transition: all .4s ease;
+    object-position: 0% 0%;
 }
 .project:hover img{
     opacity:1;
@@ -285,6 +303,9 @@ function changeModal(num){
 }
 .grid-span{
     grid-column:span 2;
+}
+.grid-span img{
+    object-position: 50% 0%;
 }
 .row-span{
     grid-row:span 2;

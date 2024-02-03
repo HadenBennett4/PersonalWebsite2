@@ -1,10 +1,28 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import HomeView from './views/HomeView.vue';
 import AboutView from './views/AboutView.vue';
 import PortfolioView from './views/PortfolioView.vue';
 import ContactView from './views/ContactView.vue';
+import { ref, onMounted, onBeforeUnmount, computed } from 'vue';
+
+const scrollPosition = ref(0)
+const handleScroll = () => {
+  scrollPosition.value = window.scrollY;
+};
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+onBeforeUnmount(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+const hamColor = computed(() => {
+      if (scrollPosition.value < 620) {
+        return 'black';
+      } else {
+        return 'white';
+      }
+});
 
 const hamburgerToggle = ref("false")
 function handleHamburger(){
@@ -23,7 +41,7 @@ function handleHamburger(){
   <PortfolioView id="portfolio"></PortfolioView>
   <ContactView id="contact"></ContactView>
 
-  <svg @click="handleHamburger" class="hamburger" viewBox="0 0 60 60" :hamburger-toggle=[hamburgerToggle]>
+  <svg @click="handleHamburger" :ham-color=[hamColor] class="hamburger" viewBox="0 0 60 60" :hamburger-toggle=[hamburgerToggle]>
     <rect class="top" ></rect>
     <rect class="middle" ></rect>
     <rect class="bottom" ></rect>
@@ -42,6 +60,9 @@ function handleHamburger(){
 </template>
 
 <style scoped>
+.hamburger[ham-color="white"]{
+  fill:white;
+}
 .hamburger{
   position: fixed;
   top: 0; 
