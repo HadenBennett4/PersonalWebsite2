@@ -22,61 +22,110 @@ function changeModal(num){
                 <h2>All around the state moving</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
-                <div class="info-box"></div>
+                <div class="info-box">
+                    <h3>All around the state moving</h3>
+                    <p>All around the state moving is a website built for a Dallas based moving company</p>
+                    <a href="https://www.icoconverter.com/"></a>
+                </div>
             </div>
             <div @click="changeModal(2)" class="project grid2 no-span">
                 <img src="../assets/Diner.jpg">
                 <h2>Project Name 2</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
+                <div class="info-box">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <a href="https://www.icoconverter.com/"></a>
+                </div>
             </div>
             <div @click="changeModal(3)" class="project grid3 row-span">
                 <img src="../assets/Diner.jpg">
                 <h2>Project Name 3</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
+                <div class="info-box">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <a href="https://www.icoconverter.com/"></a>
+                </div>
             </div>
             <div @click="changeModal(4)" class="project grid4 no-span">
                 <img src="../assets/Diner.jpg">
                 <h2>Project Name 4</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
+                <div class="info-box">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <a href="https://www.icoconverter.com/"></a>
+                </div>
             </div>
             <div @click="changeModal(5)" class="project grid5 grid-span">
                 <img src="../assets/Diner.jpg">
                 <h2>Project Name 5</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
+                <div class="info-box">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <a href="https://www.icoconverter.com/"></a>
+                </div>
             </div>
             <div @click="changeModal(6)" class="project grid6 row-span">
                 <img src="../assets/Diner.jpg">
                 <h2>Project Name 6</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
+                <div class="info-box">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <a href="https://www.icoconverter.com/"></a>
+                </div>
             </div>
             <div @click="changeModal(7)" class="project grid7 no-span">
                 <img src="../assets/Diner.jpg">
                 <h2>Project Name 7</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
+                <div class="info-box">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <a href="https://www.icoconverter.com/"></a>
+                </div>
             </div>
             <div @click="changeModal(8)" class="project grid8 grid-span">
                 <img src="../assets/Diner.jpg">
                 <h2>Project Name 8</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
+                <div class="info-box">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <a href="https://www.icoconverter.com/"></a>
+                </div>
             </div>
             <div @click="changeModal(9)" class="project grid9 grid-span">
                 <img src="../assets/Diner.jpg">
                 <h2>Project Name 9</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
+                <div class="info-box">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <a href="https://www.icoconverter.com/"></a>
+                </div>
             </div>
             <div @click="changeModal(10)" class="project grid10 no-span ">
                 <img src="../assets/Diner.jpg">
                 <h2>Project Name 10</h2>
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
+                <div class="info-box">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <a href="https://www.icoconverter.com/"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -139,11 +188,28 @@ function changeModal(num){
     grid-column:span  4;
     grid-row: span 2;
 }
+
+/**Info Box Styles */
 .info-box{
-    background-color: aqua;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
 }
-.grid[show-modal="1"] .grid1 .info-box{
-    background-color: aqua;
+.grid[show-modal="1"] .grid1 .info-box,
+.grid[show-modal="2"] .grid2 .info-box,
+.grid[show-modal="3"] .grid3 .info-box,
+.grid[show-modal="4"] .grid4 .info-box,
+.grid[show-modal="5"] .grid5 .info-box,
+.grid[show-modal="6"] .grid6 .info-box,
+.grid[show-modal="7"] .grid7 .info-box,
+.grid[show-modal="8"] .grid8 .info-box,
+.grid[show-modal="9"] .grid9 .info-box,
+.grid[show-modal="10"] .grid10 .info-box{
+
+    background-color: inherit;
+    opacity: 20;
+    z-index: 16;
 }
 
 .container{
@@ -154,7 +220,8 @@ function changeModal(num){
     align-items: center;
     justify-content: space-evenly;
     background-color:  rgb(30, 30, 30);
-    border-top: solid 4px var(--secondary-yellow)
+    border-top: solid 4px var(--secondary-yellow);
+    border-bottom: solid 4px var(--secondary-yellow);
 }
 .container h1{
     font-size: 100px;

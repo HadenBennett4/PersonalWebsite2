@@ -46,6 +46,7 @@ function changeShow() {
     .container {
         width: 100%;
         height: 700px;
+        border-top: solid 4px var(--secondary-yellow);
     }
 
     .wrapper {
