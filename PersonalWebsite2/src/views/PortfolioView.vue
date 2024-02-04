@@ -24,7 +24,7 @@ function changeModal(num){
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>All around the state moving</h3>
-                    <p>All around the state moving is a website built for a Dallas based moving company</p>
+                    <p1>All around the state moving is a website built for a Dallas based moving company</p1>
                     <a href="https://www.icoconverter.com/" target="_blank">https://www.icoconverter.com</a>
                 </div>
             </div>
@@ -34,9 +34,9 @@ function changeModal(num){
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
+                    <h3>Demo Website 1</h3>
+                    <p1>This is the first demo website that I built to pitch to nursing homes</p1>
+                    <a href="https://duckweed-demo1.netlify.app/" target="_blank">https://duckweed-demo1.netlify.app/</a>
                 </div>
             </div>
             <div @click="changeModal(3)" class="project grid3 row-span">
@@ -45,8 +45,8 @@ function changeModal(num){
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <h3>Demo Website 4</h3>
+                    <p1>This is the fourth demo website that I built to pitch to nursing homes</p1>
                     <a href="https://demo4-duckweed.netlify.app/#home" target="_blank">https://demo4-duckweed.netlify.app</a>
                 </div>
             </div>
@@ -57,9 +57,9 @@ function changeModal(num){
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
+                    <h3>Demo Website 2</h3>
+                    <p1>This is the second demo website that I built to pitch to nursing homes</p1>
+                    <a href="https://main--duckweed-demo2.netlify.app/" target="_blank">https://main--duckweed-demo2.netlify.app/</a>
                 </div>
             </div>
             <div @click="changeModal(5)" class="project grid5 grid-span">
@@ -69,9 +69,9 @@ function changeModal(num){
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
+                    <h3>Demo Website 3</h3>
+                    <p1>This is a the third demo website that I built to pitch to nursing homes</p1>
+                    <a href="https://duckweed-demo3.netlify.app/" target="_blank">https://duckweed-demo3.netlify.app/</a>
                 </div>
             </div>
             <div @click="changeModal(6)" class="project grid6 row-span">
@@ -80,8 +80,8 @@ function changeModal(num){
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
+                    <h3>Duckweed Marketing Website</h3>
+                    <p1>This is the website built for my freelancing business I run with a couple of friends</p1>
                     <a href="https://duckweedmarketing.com" target="_blank">https://duckweedmarketing.com</a>
                 </div>
             </div>
@@ -92,8 +92,8 @@ function changeModal(num){
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>Restaurant System (College Project)</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
+                    <p1>This was one of my final college projects at the University Of North Texas. My final group and I built a restaurant ordering system (similar to ones you see at Chilis)</p1>
+                    <a href="https://github.com/HadenBennett4/restaurant-app" target="_blank">https://github.com/HadenBennett4/restaurant-app</a>
                 </div>
             </div>
             <div @click="changeModal(8)" class="project grid8 grid-span">
@@ -103,8 +103,8 @@ function changeModal(num){
                 <p2>Click to learn more</p2>
                 <div class="info-box">
                     <h3>Karaoke on Wheel (In Progress)</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
+                    <p1>This is a website for a small Karaoke business in Waco,Tx. Still in progress</p1>
+                    <a href="https://wordpress.com/view/karokeonwheels.wpcomstaging.com" target="_blank">https://wordpress.com/view/karokeonwheels.wpcomstaging.com</a>
                 </div>
             </div>
             <div @click="changeModal(9)" class="project grid9 grid-span">
@@ -113,9 +113,9 @@ function changeModal(num){
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
+                    <h3>Flash Card Web App (In Progress)</h3>
+                    <p1>This is a small flash card web app I amm building to help me learn spanish </p1>
+                    <a href="https://github.com/HadenBennett4/FlashCardWeb" target="_blank">https://github.com/HadenBennett4/FlashCardWeb</a>
                 </div>
             </div>
             <div @click="changeModal(10)" class="project grid10 no-span ">
@@ -124,9 +124,9 @@ function changeModal(num){
                 <p>Click to learn more</p>
                 <p2>Click to learn more</p2>
                 <div class="info-box">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus laboriosam aliquam illum in id rerum voluptate maxime, unde nobis sequi suscipit, possimus quam voluptatum, sit nulla accusantium saepe odio.</p>
-                    <a href="https://www.icoconverter.com/" target="_blank">"LINK"</a>
+                    <h3>POS System (In Progress)</h3>
+                    <p1>This is a very early development of a POS system I am trying to make. I have a lot of friends in the restaurant business and I am trying to make a reliable POS system to save them some money</p1>
+                    <a href="https://github.com/HadenBennett4/POS" target="_blank">https://github.com/HadenBennett4/POS</a>
                 </div>
             </div>
         </div>
@@ -201,17 +201,24 @@ function changeModal(num){
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 0;
 }
 .info-box a{
     text-decoration: none;
     color: rgb(30, 30, 30);
     font-size: 17px;
+    transition: all .2s ease;
+}
+.info-box a:hover{
+    text-decoration: underline;
 }
 .info-box h3{
     font-size: 30px;
 }
-.info-box p{
-    font-size:15px;
+.info-box p1{
+    font-size:20px;
+    width: 80%;
+    text-align: center;
 }
 .grid[show-modal="1"] .grid1 .info-box,
 .grid[show-modal="2"] .grid2 .info-box,
@@ -290,6 +297,7 @@ function changeModal(num){
     opacity: 1;
     border-radius: 5px;
     padding:2%;
+    position: absolute;
 }
 .project p2:hover{
     transform: scale(1.02);
@@ -297,6 +305,21 @@ function changeModal(num){
 
 .project h2{
     font-size:30px;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+}
+.project:hover h2{
+    opacity: 0;
+}
+.project p{
+    font-size:15px;
+    position: absolute;
+    text-align: center;
+    bottom: 15%;
+}
+.project:hover p{
+    opacity: 0;
 }
 .grid[show-modal="0"] .project:hover{
     transform:scale(1.02);
