@@ -9,7 +9,9 @@
 </template>
 
 <style scoped>
-home{
+
+@media (min-width: 1024px) {
+  home{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,13 +37,62 @@ h1{
   6px 6px 0 var(--main-yellow);
   z-index: 6;
 }
-@media (min-width: 1024px) {
-  
 }
 @media (max-width: 1023px) and (min-width:480px){
-
+  home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 50em;
+  text-align: center;
+}
+.home-image{
+  width: 100%;
+  height:100%;
+  filter:grayscale(60%);
+  object-fit: cover;
+  position: absolute;
+  z-index:5;
+}
+h1{
+  font-size: 120px;
+  font-weight: bolder;
+  color: var(--main-white);
+  text-shadow:2px 2px 0 var(--secondary-yellow),
+  4px 4px 0 var(--main-orange),
+  6px 6px 0 var(--main-yellow);
+  z-index: 6;
+}
 }
 @media (max-width: 480px){
-  
+  home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+.home-image{
+  width: 100%;
+  height:100%;
+  filter:grayscale(60%);
+  object-fit: cover;
+  position: absolute;
+  z-index:5;
+}
+h1{
+  font-size: 120px;
+  font-weight: bolder;
+  color: var(--main-white);
+  text-shadow:2px 2px 0 var(--secondary-yellow),
+  4px 4px 0 var(--main-orange),
+  6px 6px 0 var(--main-yellow);
+  z-index: 6;
+}
 }
 </style>
